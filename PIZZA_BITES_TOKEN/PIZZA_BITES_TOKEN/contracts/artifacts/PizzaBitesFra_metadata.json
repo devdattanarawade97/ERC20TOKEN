@@ -1,0 +1,90 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_token",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "exchangePizzaBitesTokens",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "token",
+				"outputs": [
+					{
+						"internalType": "contract ERC20Token",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "tokenOwner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"PIZZA_BITES_TOKEN/contracts/TokenSale.sol": "PizzaBitesFra"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"PIZZA_BITES_TOKEN/contracts/TokenSale.sol": {
+			"keccak256": "0x03fcaad729f5f4fc418c9b1ee4884cf4e07a5da179b9fd73e70ece94a8ff53a4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b9b1458f592784f5b23f9c63c0f62fc4b0ff0c930c688082974fdfe25bbdbc76",
+				"dweb:/ipfs/QmWKgd9AJfD6aRw3BP5ne2cFAxCNoFmpYC2noLHZ7fUrpQ"
+			]
+		}
+	},
+	"version": 1
+}
